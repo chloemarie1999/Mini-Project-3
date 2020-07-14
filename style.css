@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+* {
+  box-sizing: border-box;
+}
+
+img{
+  height: 300px;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.result{
+  padding-top: 20px;
+  font-family: 'PT Sans Narrow';
+  font-size: 25px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("https://pluspng.com/img-png/starry-sky-background-png--1280.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: contain;
+}
+
+h1{
+  font-family: 'VT323';
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+input{
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  color: black;
+  font-size: 2em;
+  height: 60px;
+  width: 200px;
+  font-family: 'PT Sans Narrow';
+  padding-left: 10px;
+}
+
+.box{
+  background-color: #d6d6d6;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  position: center;
+  opacity: 0.8;
+}
+
+.submit{
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  color: black;
+  font-size: 2em;
+  height: 60px;
+  width: 200px;
+  font-family: 'PT Sans Narrow';
+}
+
+button:hover{
+  background-color: #ffffff;
+}
